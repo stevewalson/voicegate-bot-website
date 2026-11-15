@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - VoiceGate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="bot-logo">VoiceGate</div>
+    <div class="nav">
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <p>Last updated: 11/15/2026</p>
+
+    <h2>1. Overview</h2>
+    <p>This Privacy Policy explains how VoiceGate ("the Bot") handles data when you use it within your Discord server. We are committed to transparency and respect user privacy above all else.</p>
+
+    <h2>2. Data We *Do Not* Collect</h2>
+    <p>To provide a zero-clutter voice channel experience, we prioritize data minimizations. VoiceGate does NOT store, save, or persistently collect any of the following:</p>
+    <ul>
+        <li>Message content (your chat messages).</li>
+        <li>User IDs, usernames, or user avatars.</li>
+        <li>Server details, configurations, or roles.</li>
+    </ul>
+
+    <h2>3. Data Handling & Use (Real-time Processing)</h2>
+    <p>When the Bot detects that a voice channel is empty, it requires access to certain real-time data to perform its deletion task. This data is processed immediately and is not stored after use:</p>
+    <ul>
+        <li><strong>Channel Metadata:</strong> The unique ID of the voice channel and the Server ID to identify where to clear messages.</li>
+        <li><strong>User State:</strong> The information that users have joined or left a voice channel (used only to detect if the channel is currently empty).</li>
+        <li><strong>Message Identifiers:</strong> The unique IDs of text messages within the voice channel, required to fetch and issue deletion commands. (The actual *content* of the message is ignored by our standard cleaning algorithm).</li>
+    </ul>
+
+    <h2>4. Data Storage and Third-Party Access</h2>
+    <p>Because we do not collect persistent data, there is no data to share with third parties, sell, or disclose. All message deletion commands are processed through standard Discord API calls, and the final state of deletion is managed solely by Discord.</p>
+
+    <h2>5. Your Rights & Data Erasure</h2>
+    <p>Your right to erasure is guaranteed because the Bot does not save your data in the first place.</p>
+    <p>The core function of the Bot is to delete messages. If you wish to stop this data processing, simply remove (kick/ban) the Bot from your Server.</p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>We reserve the right to update this Privacy Policy to reflect changes in how the Bot functions. Any updates will be posted here with a new "Last Updated" date.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact the development team on our <a href="https://discord.gg/b7DcVjmBNS">Support Server</a> .</p>
+
+</div>
+
+</body>
+</html>
